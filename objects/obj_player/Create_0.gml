@@ -1,0 +1,1 @@
+xscale_inicial=image_xscale
