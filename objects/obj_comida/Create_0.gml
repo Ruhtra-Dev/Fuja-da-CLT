@@ -1,5 +1,5 @@
 //ando para baixo
-vspeed+=2
+vspeed=2*global.velocidade
 
 //escolhendo algum visual de comida
 var _comida=choose(spr_batata, spr_chocolate, spr_coxinha, spr_hamburguer)

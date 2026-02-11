@@ -21,3 +21,18 @@ if (movimento=-1)
     //se meu xscale for igual o xscale inicial eu inverto ele
     if (image_xscale==xscale_inicial) image_xscale=-image_xscale
 }
+
+//aumento meu tempo vivo
+global.tempoatual++
+    
+//se eu atingir os pontos necessario e for menor q o maximo do array
+if (global.comida=pontos[pontoatual] and pontoatual<array_length(pontos)-1)
+{
+    //aumento a velocidade em .5
+    global.velocidade+=.5
+    //aumento a velocidade do background
+    var _back=layer_get_id("background")
+    layer_vspeed(_back, 1*global.velocidade)
+    //aumento meu indice da velocidade
+    pontoatual++
+}

@@ -37,13 +37,18 @@
   },
   "name":"Fuja-da-CLT",
   "resources":[
+    {"id":{"name":"fnt_fonte","path":"fonts/fnt_fonte/fnt_fonte.yy",},},
     {"id":{"name":"obj_clt","path":"objects/obj_clt/obj_clt.yy",},},
     {"id":{"name":"obj_comida","path":"objects/obj_comida/obj_comida.yy",},},
+    {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},},
+    {"id":{"name":"obj_hud","path":"objects/obj_hud/obj_hud.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_quadrinho","path":"objects/obj_quadrinho/obj_quadrinho.yy",},},
     {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},},
+    {"id":{"name":"gameover","path":"rooms/gameover/gameover.yy",},},
     {"id":{"name":"hq","path":"rooms/hq/hq.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"snd_musga","path":"sounds/snd_musga/snd_musga.yy",},},
     {"id":{"name":"snd_pickup","path":"sounds/snd_pickup/snd_pickup.yy",},},
     {"id":{"name":"spr_batata","path":"sprites/spr_batata/spr_batata.yy",},},
@@ -64,6 +69,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"hq","path":"rooms/hq/hq.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"gameover","path":"rooms/gameover/gameover.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
